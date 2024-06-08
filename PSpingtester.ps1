@@ -172,7 +172,7 @@ $objLabel6.Size = New-Object System.Drawing.Size(160,35)
 $objLabel6.Enabled = $true
 $objForm.Controls.Add($objLabel6)
 
-# AT&T Primary DNS button
+# Your ISP Primary DNS button
 $objButton7 = New-Object System.Windows.Forms.Button
 $objButton7.Location = New-Object System.Drawing.Size(170,295)
 $objButton7.Size = New-Object System.Drawing.Size(75,23)
@@ -180,7 +180,7 @@ $objButton7.Text = "OK"
 $objButton7.Add_Click({Button_Click7})
 $objForm.Controls.Add($objButton7)
 
-# form AT&T Primary DNS label
+# form Your ISP Primary DNS label
 $objLabel7 = New-Object System.Windows.Forms.Label
 $objLabel7.Name = "ispdns"
 $objLabel7.Text = $hostlabel7
@@ -189,7 +189,7 @@ $objLabel7.Size = New-Object System.Drawing.Size(160,35)
 $objLabel7.Enabled = $true
 $objForm.Controls.Add($objLabel7)
 
-# AT&T Secondary DNS button
+# Your ISP Secondary DNS button
 $objButton8 = New-Object System.Windows.Forms.Button
 $objButton8.Location = New-Object System.Drawing.Size(170,335)
 $objButton8.Size = New-Object System.Drawing.Size(75,23)
