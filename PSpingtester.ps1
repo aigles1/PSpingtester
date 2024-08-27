@@ -1,7 +1,7 @@
 [void] [System.Reflection.Assembly]::LoadWithPartialName("System.Windows.Forms")
 [void] [System.Reflection.Assembly]::LoadWithPartialName("System.Drawing")
 
-#Powershell Pingtester written by aigles1 with parts of code taken from open-sources found on the web
+#Powershell Pingtester written by aigles1 with parts of code taken from open sources found on the web
  
 $host2 = "1.1.1.1"
 $hostlabel2 = "Cloudflare DNS 1.1.1.1"
