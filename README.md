@@ -1,5 +1,6 @@
 # PSpingtester
 Powershell GUI ping tester<br />
+Requires [Powershell 7](https://github.com/PowerShell/PowerShell)<br />
 Useful for quick network connection status without having to type in any commands or remember known good addresses.<br />
 The reason for only allowing 1-6 pings is because Ctrl+C does not work with hybrid console/gui powershell scripts.<br />
 Esc closes the script.<br />
