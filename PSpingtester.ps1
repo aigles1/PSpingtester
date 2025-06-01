@@ -12,8 +12,8 @@ $hostlabel3 = "speedtest.net"
 $host4 = "8.8.8.8"
 $hostlabel4 = "Google DNS 8.8.8.8"
 
-$host5 = "205.251.196.120"
-$hostlabel5 = "Amazon DNS 205.251.196.120"
+$host5 = "104.26.5.16"
+$hostlabel5 = "Meter.net 104.26.5.16"
 
 $host6 = "208.67.222.222"
 $hostlabel6 = "Cisco OpenDNS 208.67.222.222"
@@ -138,7 +138,7 @@ $objLabel4.Size = New-Object System.Drawing.Size(150,25)
 $objLabel4.Enabled = $true
 $objForm.Controls.Add($objLabel4)
 
-# amazon dns button
+# meter.net button
 $objButton5 = New-Object System.Windows.Forms.Button
 $objButton5.Location = New-Object System.Drawing.Size(170,215)
 $objButton5.Size = New-Object System.Drawing.Size(75,23)
@@ -146,12 +146,12 @@ $objButton5.Text = "OK"
 $objButton5.Add_Click({Button_Click5})
 $objForm.Controls.Add($objButton5)
 
-# form amazon dns label
+# form meter.net label
 $objLabel5 = New-Object System.Windows.Forms.Label
-$objLabel5.Name = "amazondns"
+$objLabel5.Name = "meternet"
 $objLabel5.Text = $hostlabel5
-$objLabel5.location = New-Object System.Drawing.Point(68, 210)
-$objLabel5.Size = New-Object System.Drawing.Size(160,36)
+$objLabel5.location = New-Object System.Drawing.Point(90, 210)
+$objLabel5.Size = New-Object System.Drawing.Size(120,36)
 $objLabel5.Enabled = $true
 $objForm.Controls.Add($objLabel5)
 
